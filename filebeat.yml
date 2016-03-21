@@ -8,7 +8,7 @@ filebeat:
       document_type: beats
 output:
   logstash:
-    hosts: ["LOGSTASH_SERVER"]
+    hosts: ["LOGSTASH_HOST:LOGSTASH_PORT"]
     index: LOGSTASH_INDEX
 logging:
   to_files: true
